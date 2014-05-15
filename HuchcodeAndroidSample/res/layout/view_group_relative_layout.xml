@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+	<Button 
+		android:id="@+id/button1"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="Button1"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:textColor="#0000ff"
+	    android:textSize="20.0dip"
+	    android:textStyle="normal"
+	/>
+	<Button 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="Button2"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:textColor="#0000ff"
+	    android:textSize="20.0dip"
+	    android:textStyle="normal"
+	    android:layout_below="@+id/button1"
+	/>
+</RelativeLayout>

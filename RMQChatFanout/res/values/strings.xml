@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RMQChatFanout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="RMQ_HOSTNAME">192.168.1.103</string>
+    <string name="EXCHANGE_NAME">com.huchcode.ChatFanoutLogs1</string>
+    
+</resources>

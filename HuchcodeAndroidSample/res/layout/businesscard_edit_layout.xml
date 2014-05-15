@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true">
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="60dip"
+          android:layout_height="wrap_content"
+          android:text="이름" />
+        <EditText
+          android:id="@+id/etName"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="Name" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="60dip"
+          android:layout_height="wrap_content"
+          android:text="Company" />
+        <EditText
+          android:id="@+id/etCompany"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="Company" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="60dip"
+          android:layout_height="wrap_content"
+          android:text="Cellphone" />
+        <EditText
+          android:id="@+id/etPhoneNo"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="Cellphone" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="60dip"
+          android:layout_height="wrap_content"
+          android:text="Email" />
+        <EditText
+          android:id="@+id/etEmail"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email" />
+      </LinearLayout>
+      
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal">
+        <Button
+          android:id="@+id/btnOk"
+          android:layout_width="120dip"
+          android:layout_height="wrap_content"
+          android:text="Confirm" />
+        <Button
+          android:id="@+id/btnCancel"
+          android:layout_width="120dip"
+          android:layout_height="wrap_content"
+          android:text="Cancel" />
+      </LinearLayout>
+    </LinearLayout>
+
+  </ScrollView>
+</LinearLayout>

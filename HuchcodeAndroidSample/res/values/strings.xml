@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HuchcodeTrainigSampleAppMainActivity!</string>
+    <string name="app_name">HuchcodeTrainigSampleApp</string>
+    
+    
+    <string name="btn_home">Home</string>
+    
+    <string name="main_title">Huchcode android exercise</string>
+    <string name="main_btn_1">LinearLayout Sample</string>
+    <string name="main_btn_2">View Sample</string>
+    <string name="main_btn_3">Implicit Intent Sample</string>
+</resources>

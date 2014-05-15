@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/top_bar_layout"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_alignParentTop="true"
+  android:background="@drawable/top_bg">
+
+  <ImageButton
+    android:id="@+id/top_left_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="10.0dip"
+    android:layout_centerInParent="true"
+    android:background="@drawable/selector_btn_pre"/>
+
+  <TextView
+    android:id="@+id/top_middle_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:typeface="monospace"
+    android:shadowColor="#345E87"
+    android:shadowDx="-1.5"
+    android:shadowDy="-1.5"
+    android:shadowRadius="1.0"
+    android:text="Example Sample"/>
+
+  <Button
+    android:id="@+id/top_right_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:padding="5dip"
+    android:layout_marginRight="10.0dip"
+    android:typeface="monospace"
+    android:textColor="@color/white"
+    android:shadowColor="#345E87"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"
+    android:textSize="12.0dip"
+    android:background="@drawable/selector_btn"
+    android:text="@string/btn_home"
+    android:visibility="invisible"/>
+</RelativeLayout>

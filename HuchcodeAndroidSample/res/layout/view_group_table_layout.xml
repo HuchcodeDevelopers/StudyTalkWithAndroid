@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow>
+		<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    android:text="Title1"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    android:text="Title2"/>
+		<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    android:text="Title3"/>
+	</TableRow>
+	<TableRow>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		    android:text="EditText1"
+		    android:ellipsize="end"/>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		    android:text="EditText2"
+		    android:ellipsize="end"/>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		    android:text="EditText3"
+		    android:ellipsize="end"/>
+	</TableRow>
+</TableLayout>
